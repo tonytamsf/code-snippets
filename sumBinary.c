@@ -17,7 +17,7 @@ int atob(char *a) {
    return num;
 }
 
-// convert an int to string
+// convert an int to string in binary
 // the caller needs to delete the memory return
 char *itobs(int myInt) {
   char *c = malloc(sizeof (char) * 33);
